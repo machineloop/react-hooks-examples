@@ -36,8 +36,8 @@ const ElaborateInput = forwardRef(
 );
 
 const ImperativeHandleComponent = () => {
-  const [city, setCity] = useState("Seattle");
-  const [state, setState] = useState("WA");
+  const [city, setCity] = useState("San Francisco");
+  const [state, setState] = useState("CA");
   const [error, setError] = useState("");
   const cityEl = useRef();
   const stateEl = useRef();
