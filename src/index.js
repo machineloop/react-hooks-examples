@@ -9,6 +9,7 @@ import Memo from "./Memo";
 import Callback from "./Callback";
 import LayoutEffect from "./LayoutEffect";
 import ImperativeHandle from "./ImperativeHandle";
+import PreloadEffect from "./examples/PreloadEffect";
 
 import "./styles.css";
 
@@ -18,6 +19,8 @@ function App() {
       <State />
       <hr />
       <Effect />
+      <hr />
+      <PreloadEffect />
       <hr />
       <Context />
       <hr />
